@@ -46,11 +46,11 @@ html {
 * Customize the background color to match your design.
 */
 ::-moz-selection {
-  background: #2eb8ac;
+  background: #f5a124;
   text-shadow: none; }
 
 ::selection {
-  background: #2eb8ac;
+  background: #f5a124;
   text-shadow: none; }
 
 /*
@@ -132,7 +132,7 @@ a {
   transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out; }
   a:hover {
     border-bottom-color: transparent;
-    color: #2eb8ac; }
+    color: #f5a124; }
 
 h1,
 h2,
@@ -221,8 +221,8 @@ input[type="button"],
   input[type="reset"]:hover,
   input[type="button"]:hover,
   .button:hover {
-    border: 1px solid #2eb8ac;
-    color: #2eb8ac !important; }
+    border: 1px solid #f5a124;
+    color: #f5a124 !important; }
     input[type="submit"]:hover:active,
     input[type="reset"]:hover:active,
     input[type="button"]:hover:active,
@@ -248,13 +248,13 @@ textarea {
   input:hover,
   select:hover,
   textarea:hover {
-    border-color: #2eb8ac; }
+    border-color: #f5a124; }
   input:focus, input:active,
   select:focus,
   select:active,
   textarea:focus,
   textarea:active {
-    border: 1px solid #2eb8ac; }
+    border: 1px solid #f5a124; }
 
 input,
 select {
@@ -1049,7 +1049,7 @@ figcaption {
   border: 0;
   transition: color 0.2s ease-in-out, transform 0.2s ease-in-out; }
   #back-to-top:hover {
-    color: #2eb8ac !important;
+    color: #f5a124 !important;
     transform: translateY(-10px); }
 
 #socnet-share {
@@ -1136,7 +1136,7 @@ figcaption {
     width: 20px; }
 
 .submit-success {
-  border: 1px solid #2eb8ac;
+  border: 1px solid #f5a124;
   background: rgba(46, 184, 172, 0.25); }
 
 .submit-failed {
