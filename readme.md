@@ -14,7 +14,9 @@
 
 ---
 
-<p align="center"> <a>#AzureClassMX</a> Learn the skills to build and grow diverse technology communities on campus with training, mentorship, and support from GitHub.
+<p align="center"> <a>#AzureClassMX</a> https://ambitious-desert-0d55e2b10.azurestaticapps.net/
+    <br>
+    Learn the skills to build and grow diverse technology communities on campus with training, mentorship, and support from GitHub.
     <br> 
 </p>
 
