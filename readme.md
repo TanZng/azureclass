@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://githubcampus.expert/assets/images/ce-flag.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Vanilla JavaScript App</h3>
+<h3 align="center">Andy's blog</h3>
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> Learn the skills to build and grow diverse technology communities on campus with training, mentorship, and support from GitHub.
+<p align="center"> <a>#AzureClassMX</a> Learn the skills to build and grow diverse technology communities on campus with training, mentorship, and support from GitHub.
     <br> 
 </p>
 
@@ -32,81 +32,65 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Simple Static Web Application for my friend Andy's blog.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+```
+git clone https://github.com/TanZng/azureclass.git
+```
+
+See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
+You will need to have Hugo installed on your computer. If you haven't installed it yet, you can follow the [following tutorial](https://gohugo.io/getting-started/installing)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+Open the project you cloned earlier, in your favorite editor. I use Visual Code Studio.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+On the terminal run
 
 ```
-until finished
+hugo server -D
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+And open  http://localhost:1313/ on your browser, you should se the webpage.
 
 ## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
+#### config.toml
+
+For details on the `config.toml`, please refer to the [wiki page](https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml)
+
+#### Create a post
+To create a post use the next command
+```
+hugo new blog/name-of-the-post.md
+```
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-Add additional notes about how to deploy this on a live system.
+You can follow this video tutorial; ["Clase Online: Asegura tu futuro en la nube"](https://www.youtube.com/watch?v=4IZVvHwTJ_s&ab_channel=MicrosoftLatinoam%C3%A9rica), to deploy this site on Azure.
+
+Or you can read this [documentation](https://docs.microsoft.com/es-mx/azure/static-web-apps/getting-started?tabs=vanilla-javascript) from Azure.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Hugo Future Imperfect Slim](https://github.com/pacollins/hugo-future-imperfect-slim) - Theme
+
+- [Hugo](https://gohugo.io/) - Static Site Generator
+- [Azure](https://azure.microsoft.com/en-us/services/app-service/static/) - Host
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+- [@TanZng](https://github.com/kylelobo) - Developer & Customizer of the blog
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- thanks to [@pacollins](https://github.com/pacollins) creating [Hugo Future Imperfect Slim](https://github.com/pacollins/hugo-future-imperfect-slim)
+- thanks to [@pandyshwallee](https://github.com/pandyshwallee) for motivating me to create her blog 
+- References for Azure deploy: [Clase Online: Asegura tu futuro en la nube](https://www.youtube.com/watch?v=4IZVvHwTJ_s&ab_channel=MicrosoftLatinoam%C3%A9rica)
