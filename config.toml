@@ -1,7 +1,7 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 baseurl                 = "https://ambitious-desert-0d55e2b10.azurestaticapps.net/"
-DefaultContentLanguage  = "en"
+DefaultContentLanguage  = "es"
 title                   = "Andy blog"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
@@ -33,9 +33,9 @@ disableLanguages        = []
   [params.meta]
     description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
     author              = "HTML5UP and Hugo"
-    favicon             = false
+    favicon             = true
     svg                 = true
-    faviconVersion      = "1"
+    faviconVersion      = ""
     msColor             = "#ffffff"
     iOSColor            = "#ffffff"
 
@@ -121,62 +121,14 @@ disableLanguages        = []
 
 [Languages]
 
-  [Languages.en]
-    LanguageCode        = "en"
-    LanguageName        = "English"
-    weight              = 1
-
-  [Languages.fr]
-    LanguageCode        = "fr"
-    LanguageName        = "Français"
-    title               = "Hugo Future Imperfect Slim en français"
-    description         = "Un thème par HTML5 UP, porté par Julio Pescador. Simplifié et amélioré par Patrick Collins. Multilingue par StatnMap. Propulsé par Hugo."
-    weight              = 2
-
-    [[Languages.fr.menu.main]]
-      name              = "Accueil"
-      identifier        = "home"
-      url               = "/"
-      pre               = "<i class='fas fa-home'></i>"
-      weight            = 1
-
-    [[Languages.fr.menu.main]]
-      name              = "About"
-      identifier        = "about"
-      url               = "/about/"
-      pre               = "<i class='far fa-id-card'></i>"
-      weight            = 2
-
-    [[Languages.fr.menu.main]]
-      name              = "Blog"
-      identifier        = "blog"
-      url               = "/blog/"
-      pre               = "<i class='far fa-newspaper'></i>"
-      weight            = 3
-
-    [[Languages.fr.menu.main]]
-      name              = "Catégories"
-      identifier        = "categories"
-      url               = "/categories/"
-      pre               = "<i class='fas fa-sitemap'></i>"
-      weight            = 5
-
-    [[Languages.fr.menu.main]]
-      name              = "Contact"
-      identifier        = "contact"
-      url               = "/contact/"
-      pre               = "<i class='far fa-envelope'></i>"
-      weight            = 6
-
   [Languages.es]
     LanguageCode        = "es"
     LanguageName        = "Español"
-    weight              = 6
-
+    weight              = 1
 
 [social]
   # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
+  github                = ""
   gitlab                = ""
   stackoverflow         = "" # User Number
   bitbucket             = ""
